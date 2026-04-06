@@ -1,0 +1,21 @@
+{
+  "latest": "1.0",
+  "models": {
+    "de": {
+      "version": "1.0",
+      "released": "2026-04-04",
+      "size_mb": 206,
+      "url": "https://github.com/tojohere/SentiLog-Models/releases/download/ml-v1.0/goemotions_de.zip",
+      "changelog": "Initial release — xlm-roberta-base, F1=0.399, 8/8 sanity checks",
+      "history": []
+    },
+    "ja": {
+      "version": "1.0",
+      "released": "2026-04-06",
+      "size_mb": 206,
+      "url": "https://github.com/tojohere/SentiLog-Models/releases/download/ml-v1.0/goemotions_ja.zip",
+      "changelog": "Initial release — xlm-roberta-base + WRIME, F1=0.376, 8/8 sanity checks",
+      "history": []
+    }
+  }
+}
