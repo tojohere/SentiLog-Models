@@ -1,14 +1,22 @@
 {
-  "latest": "1.0",
+  "latest": "1.1",
   "models": {
     "de": {
-      "version": "1.0",
-      "released": "2026-04-04",
+      "version": "1.1",
+      "released": "2026-04-07",
       "size_mb": 206,
       "url": "https://github.com/tojohere/SentiLog-Models/releases/download/ml-v1.0/goemotions_de.zip",
-      "description": "28 emotions for German journals",
-      "changelog": "xlm-roberta-base, F1=0.399, 8/8 sanity, 64% top-1 accuracy",
-      "history": []
+      "description": "Improved emotion detection for German — now with native GermEval data",
+      "changelog": "v2: xlm-roberta-base + GermEval (10K native DE), F1=0.447, 69% top-1, 15/28 perfect, only 1 missed emotion",
+      "history": [
+        {
+          "version": "1.0",
+          "released": "2026-04-04",
+          "url": "https://github.com/tojohere/SentiLog-Models/releases/download/ml-v1.0/goemotions_de.zip",
+          "description": "28 emotions for German journals",
+          "changelog": "xlm-roberta-base, F1=0.399, 64% top-1"
+        }
+      ]
     },
     "ja": {
       "version": "1.0",
