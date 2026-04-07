@@ -34,6 +34,15 @@
           "changelog": "xlm-roberta-base + WRIME native data, F1=0.376, 8/8 sanity, 56% top-1 accuracy"
         }
       ]
+    },
+    "ko": {
+      "version": "1.0",
+      "released": "2026-04-07",
+      "size_mb": 206,
+      "url": "https://github.com/tojohere/SentiLog-Models/releases/download/ml-v1.1/goemotions_ko.zip",
+      "description": "28 emotions for Korean journals",
+      "changelog": "xlm-roberta-base + KOTE (50K native KO) + NLLB translations, F1=0.379, 8/8 sanity, 67% top-1, 83% top-3",
+      "history": []
     }
   }
 }
