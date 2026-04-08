@@ -1,5 +1,5 @@
 {
-  "latest": "1.1",
+  "latest": "1.2",
   "models": {
     "de": {
       "version": "1.1",
@@ -36,13 +36,21 @@
       ]
     },
     "ko": {
-      "version": "1.0",
-      "released": "2026-04-07",
+      "version": "1.2",
+      "released": "2026-04-08",
       "size_mb": 206,
-      "url": "https://github.com/tojohere/SentiLog-Models/releases/download/ml-v1.1/goemotions_ko.zip",
-      "description": "28 emotions for Korean journals",
-      "changelog": "xlm-roberta-base + KOTE (50K native KO) + NLLB translations, F1=0.379, 8/8 sanity, 67% top-1, 83% top-3",
-      "history": []
+      "url": "https://github.com/tojohere/SentiLog-Models/releases/download/ml-v1.2/goemotions_ko.zip",
+      "description": "Improved emotion detection for Korean — retrained with early stopping",
+      "changelog": "v2: xlm-roberta-base + KOTE (50K native KO), early stopping epoch 6, F1=0.568 (training), 8/8 sanity, 68% top-1, 81% top-3",
+      "history": [
+        {
+          "version": "1.0",
+          "released": "2026-04-07",
+          "url": "https://github.com/tojohere/SentiLog-Models/releases/download/ml-v1.1/goemotions_ko.zip",
+          "description": "28 emotions for Korean journals",
+          "changelog": "xlm-roberta-base + KOTE (50K native KO) + NLLB translations, F1=0.379, 8/8 sanity, 67% top-1, 83% top-3"
+        }
+      ]
     }
   }
 }
